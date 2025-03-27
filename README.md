@@ -36,7 +36,7 @@ Library Management System adalah sistem manajemen perpustakaan yang dikembangkan
 ## 🔧 Instalasi dan Setup
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/username/library-management.git
+git clone https://gitlab.com/erzethones/library-management
 cd library-management
 ```
 
