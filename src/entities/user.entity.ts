@@ -24,7 +24,7 @@ export class User {
   // mutations: any;
   username: any;
 
-  @OneToMany(() => BookMutation, (mutation) => mutation.user)
+  @OneToMany(() => BookMutation, (mutation) => mutation.user, {cascade:['remove']})
   mutations: BookMutation[];
 
 }

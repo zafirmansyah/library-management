@@ -7,9 +7,9 @@ import {
   Patch,
   Delete,
   ParseIntPipe,
-} from '@nestjs/common';
-import { UsersService } from './users.service';
-import { CreateUserDto, UpdateUserDto } from './dto/user.dto';
+} from "@nestjs/common";
+import { UsersService } from "./users.service";
+import { CreateUserDto, UpdateUserDto } from "./dto/user.dto";
 
 @Controller('users')
 export class UsersController {

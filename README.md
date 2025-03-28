@@ -17,9 +17,9 @@ Library Management System adalah sistem manajemen perpustakaan yang dikembangkan
    - Mencatat stok masuk dan keluar.
 4. **Autentikasi dan Otorisasi**
    - Pengguna harus login sebelum dapat meminjam buku.
-   - Role-based access control (Admin, User, Guest).
+   - Role-based access control (Admin,member).
 5. **API Documentation**
-   - API didokumentasikan menggunakan **Swagger**.
+   - API didokumentasikan menggunakan **Postman**.
 
 ---
 
@@ -28,15 +28,14 @@ Library Management System adalah sistem manajemen perpustakaan yang dikembangkan
 - **Database:** MySQL
 - **Authentication:** JWT (JSON Web Token)
 - **External API:** Open Library API
-- **Documentation:** Swagger
-- **Containerization:** Docker
+- **Documentation:** Postman
 
 ---
 
 ## 🔧 Instalasi dan Setup
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://gitlab.com/erzethones/library-management
+git clone https://github.com/zafirmansyah/library-management
 cd library-management
 ```
 
@@ -59,22 +58,17 @@ OPEN_LIBRARY_API=https://openlibrary.org/api/
 
 ### 4️⃣ Jalankan Database dengan Docker
 ```bash
-docker-compose up -d
-```
-
-### 5️⃣ Jalankan Migration
-```bash
-npx typeorm migration:run
-```
-
-### 6️⃣ Start Aplikasi
-```bash
 npm run start:dev
 ```
 
 ---
 
 ## 📡 API Endpoints
+Dokumentasi lengkap ada di postman, silahkan klik link yang ada di bawah ini
+```bash
+https://documenter.getpostman.com/view/39183649/2sB2cPhQKi
+```
+
 ### 📚 Buku
 | Method | Endpoint       | Deskripsi              |
 |--------|--------------|------------------------|

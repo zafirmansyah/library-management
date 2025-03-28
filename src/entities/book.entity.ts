@@ -22,7 +22,7 @@ export class Book {
   @CreateDateColumn()
   createdAt: Date;
 
-  @Column({ unique: true })  // ISBN harus unik
+  @Column()  // ISBN harus unik
   isbn: string;
 
   @OneToMany(() => BookMutation, (mutation) => mutation.book)
